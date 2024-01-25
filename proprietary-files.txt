@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from unicorn V14.0.11.0.TLECNXM
+# All unpinned blobs below are extracted from mayfly V14.0.11.0.TLTCNXM
 
 # ADSP
 vendor/bin/adsprpcd
@@ -85,7 +85,7 @@ vendor/lib64/libbatterylistener.so
 vendor/lib64/libcapiv2svacnnvendor.so
 vendor/lib64/libcapiv2svarnnvendor.so
 vendor/lib64/libcapiv2uvvendor.so
-vendor/lib64/libcrussp.so
+#vendor/lib64/libcrussp.so
 vendor/lib64/libdapparamstorage.so
 vendor/lib64/libfmpal.so
 vendor/lib64/libkaraokepal.so
@@ -1810,9 +1810,9 @@ vendor/etc/init/init.time_daemon.rc
 vendor/lib/libtime_genoff.so
 vendor/lib64/libtime_genoff.so
 
-# Touchscreen
-vendor/bin/touch_report
-vendor/bin/touch_report:recovery/root/vendor/bin/touch_report
+# Touchscreen - from unicorn V14.0.11.0.TLECNXM
+vendor/bin/touch_report|02cd29dfb6ef24b933ff95883affc7ab46c287cf
+vendor/bin/touch_report:recovery/root/vendor/bin/touch_report|02cd29dfb6ef24b933ff95883affc7ab46c287cf
 
 # Trusted Execution Environment connector
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
